@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container-fluid bg-success main">
+        <div class="container ">
+            <br>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">C++ is lame</a>
+                    </div>
+                
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">About</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cool Stuff <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">I lied</a></li>
+                                    <li><a href="#">There's no cool stuff here</a></li>
+                                    <li><a href="#">Sorry</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Just imagine cool stuff here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Or lorem if you can't think of anything cool</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+
+
+        <!-- Jumbotron -->
+        <div class="container-fluid">
+            <div class="jumbotron text-center bg-white">
+                <div class="container">
+                    <h1>Anti-C++ Propaganda Website</h1>
+                    <br>
+                    <br>
+                    <img src="c++.png" alt="">
+                    <br>
+                    <br>
+                    <br>
+                    <p>C++ is lame. Javascript is better.</p>
+                    <p>No compiling, easy graphics with canvas, no operator overloading.</p>
+                    <p>Join the Javascript rebellion.</p>
+                    <p><a class="btn btn-warning btn-lg" href="#about" role="button">Learn more</a></p>
+                    <small>^ This button works btw ^</small>
+                    <br>
+                    <small>*But press it later after you scroll*</small>
+                    <br>
+                    <small>*The parallax is more important*</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="container-fluid bg-success main" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 >Here's why Javascript is Superior</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="well well-lg text-center ">
+                        <h3>Reason 1: No Compiling</h3>
+                        <br>
+                        <p>At least... not yet. Maybe for bigger projects, but so far 
+                            Javascript is much faster to use / test / etc cause you don't 
+                            have to constantly build the whole project and launch it </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                        <div class="well well-lg text-center">
+                            <h3>Reason 2: No more convoluted classes</h3>
+                            <br>
+                            <p>Wanna make a giraffe in JS? Make an object with weight, height, age, etc. Boom! Easy giraffe. 
+                                Wanna make a giraffe in C++? Have fun with public and private variables, functions, etc. And the functions 
+                                can only really be used by the giraffe. And you can't add the giraffes together with out reason three.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                    <div class="well well-lg text-center">
+                        <h3>Reason 3: No Operator Overloading</h3>
+                        <br>
+                        <p>Can't add giraffes with C++? Of course not. C++ doesn't know how to add giraffes. You need to 
+                            make dumb operator overloading functions so that the '+' symbol can learn how to do it. With JS, just 
+                            make a nice little function that adds the giraffe's properties together. Much more intuitive. Hallelujah.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
